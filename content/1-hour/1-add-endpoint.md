@@ -80,7 +80,8 @@ If you prefer using inline chat in the editor, ask Copilot something like:
 ```
 Create a Spring Boot RestController at /api/clinic-info that returns serverTime, javaVersion, and a message. If query param name is provided, personalize the message.
 ```
-You can get to "Inline Chat" feature by right-clicking on the editor area, select "GitHub Copilot" and then select "Copilot: Open Inline Chat".
+You can access the Inline Chat feature by right‑clicking in the editor and selecting “Open Inline Chat.”
+You can also open it using the shortcut Shift + Ctrl + I (Mac) or Shift + Ctrl + G (Windows).
 
 ## Validate the endpoint
 
