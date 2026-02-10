@@ -28,7 +28,7 @@ Agent Mode is designed for **multi-step coding tasks**. Instead of only answerin
 
 The key idea: you give a goal and constraints, and the agent works in a loop (plan → edit → validate → adjust), while you stay in control.
 
-If you want more background, see: https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode
+If you want more background, see: https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide?tool=jetbrains#agent-mode-1
 
 ### How to use it safely
 
