@@ -38,5 +38,4 @@ By the end, you should be able to answer:
 
 You now have the context to make larger changes safely. Next you’ll teach Copilot more about your repo by adding **Copilot instructions**, including more specialized custom instructions.
 
-| [← Add a simple endpoint](./01-add-endpoint.md) | [Next: Copilot instructions →](./03-copilot-instructions.md) |
-|:----------------------------------------------|------------------------------------------------------------:|
+

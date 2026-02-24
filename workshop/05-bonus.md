@@ -41,6 +41,4 @@ If you finish early, try one of these (pick one):
 ## Wrap-up
 
 The key idea: Agent Mode works best when you pair it with clear **constraints** (instructions) and a tight **feedback loop** (build/tests).
-
-| [← Add Adopt Me page](./04-add-feature.md) | [Next: Back to workshop start →](./README.md) |
 |:--------------------------------------------|----------------------------------------------:|

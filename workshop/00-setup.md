@@ -76,5 +76,4 @@ Open the app in your browser: http://localhost:8080
 
 You now have PetClinic running and the project open in IntelliJ. Next you’ll add a small endpoint to practice Copilot-assisted coding.
 
-| [← Getting started](./README.md) | [Next: Add a simple endpoint →](./01-add-endpoint.md) |
-|:--------------------------------|-----------------------------------------------------:|
+

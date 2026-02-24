@@ -159,5 +159,4 @@ If tests fail, ask Copilot to fix the failures while keeping the acceptance crit
 
 You’ve used Agent Mode (or an agent-like workflow) to add a real multi-file feature. Next is a bonus exercise combining Agent Mode with tighter custom instructions.
 
-| [← Copilot instructions](./03-copilot-instructions.md) | [Next: Bonus (Agent Mode + instructions) →](./05-bonus.md) |
-|:-----------------------------------------------------|----------------------------------------------------------:|
+
