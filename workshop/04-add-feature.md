@@ -106,14 +106,14 @@ If there’s any mismatch, update the prompt (or re-send a corrected prompt) so 
 
 Open the prompt file and paste it into Agent Mode:
 
-- [../prompts/agent-add-adoptions.md](../prompts/agent-add-adoptions.md)
+- [../prompts/agent-add-adoptions.md](./prompts/agent-add-adoptions.md)
 
 If you want an explicit “single message” to copy/paste, use this (and adjust as needed):
 
 ```text
 You are working in a local clone of Spring PetClinic (repository root).
 
-Goal: Implement the "Adopt Me" tab + "Adoption" page described by the acceptance criteria in content/1-hour/4-add-feature.md.
+Goal: Implement the "Adopt Me" tab + "Adoption" page described by the acceptance criteria in workshop/04-add-feature.md.
 
 Constraints:
 - Keep changes small and consistent with PetClinic patterns.
@@ -159,5 +159,5 @@ If tests fail, ask Copilot to fix the failures while keeping the acceptance crit
 
 You’ve used Agent Mode (or an agent-like workflow) to add a real multi-file feature. Next is a bonus exercise combining Agent Mode with tighter custom instructions.
 
-| [← Copilot instructions](./3-copilot-instructions.md) | [Next: Bonus (Agent Mode + instructions) →](./5-bonus.md) |
+| [← Copilot instructions](./03-copilot-instructions.md) | [Next: Bonus (Agent Mode + instructions) →](./05-bonus.md) |
 |:-----------------------------------------------------|----------------------------------------------------------:|

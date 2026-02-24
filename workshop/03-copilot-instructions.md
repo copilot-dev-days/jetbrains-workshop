@@ -102,5 +102,5 @@ If you want examples of good instruction files (and reusable prompts), the commu
 
 You’ve seen how instructions change Copilot’s output by providing stable, project-specific context. Next you’ll build a new adoption feature using **Agent Mode**.
 
-| [← Explore the project](./2-explore-project.md) | [Next: Add adoption feature (Agent Mode) →](./4-add-feature.md) |
+| [← Explore the project](./02-explore-project.md) | [Next: Add adoption feature (Agent Mode) →](./04-add-feature.md) |
 |:-----------------------------------------------|----------------------------------------------------------------:|

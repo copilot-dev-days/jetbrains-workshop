@@ -110,5 +110,5 @@ You should see JSON output.
 
 You added a small endpoint and validated it end-to-end. Next you’ll explore the project structure using Copilot Chat to build context for larger changes.
 
-| [← Workshop setup](./0-setup.md) | [Next: Explore the project →](./2-explore-project.md) |
+| [← Workshop setup](./00-setup.md) | [Next: Explore the project →](./02-explore-project.md) |
 |:--------------------------------|------------------------------------------------------:|

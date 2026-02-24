@@ -9,20 +9,20 @@ Practice a more realistic agent workflow:
 
 ## Part A — Strengthen instructions
 
-1. Open [../../.github/copilot-instructions.md](../../.github/copilot-instructions.md)
+1. Open [../../.github/copilot-instructions.md](../.github/copilot-instructions.md)
 2. Add a short “Do / Don’t” section, for example:
    - Do: follow PetClinic MVC patterns
    - Do: use POST-redirect-GET for state-changing actions (e.g., Adopt)
    - Don’t: introduce a separate frontend framework
    - Don’t: add new build tooling
 
-3. Open specialized instructions in [../../.github/instructions/](../../.github/instructions/) and adjust them to match your preferences.
+3. Open specialized instructions in [../../.github/instructions/](../.github/instructions/) and adjust them to match your preferences.
 
 ## Part B — Run an agent prompt that depends on those instructions
 
 Use this prompt file as a starting point:
 
-- [../prompts/bonus-agent-custom-instructions.md](../prompts/bonus-agent-custom-instructions.md)
+- [../prompts/bonus-agent-custom-instructions.md](./prompts/bonus-agent-custom-instructions.md)
 
 If your Copilot client supports Agent Mode, use it. Otherwise, do the same flow manually:
 
@@ -42,5 +42,5 @@ If you finish early, try one of these (pick one):
 
 The key idea: Agent Mode works best when you pair it with clear **constraints** (instructions) and a tight **feedback loop** (build/tests).
 
-| [← Add Adopt Me page](./4-add-feature.md) | [Next: Back to workshop start →](./README.md) |
+| [← Add Adopt Me page](./04-add-feature.md) | [Next: Back to workshop start →](./README.md) |
 |:--------------------------------------------|----------------------------------------------:|

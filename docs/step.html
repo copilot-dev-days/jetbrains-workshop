@@ -509,14 +509,14 @@
     <script>
         // Define all steps in order
         const steps = [
-            { id: 'readme', file: 'content/1-hour/README.md', title: 'Getting Started', number: '📚' },
-            { id: '00-setup', file: 'content/1-hour/0-setup.md', title: 'Workshop Setup', number: '00' },
-            { id: '01-add-endpoint', file: 'content/1-hour/1-add-endpoint.md', title: 'Add a Simple Endpoint', number: '01' },
-            { id: '02-explore-project', file: 'content/1-hour/2-explore-project.md', title: 'Explore the Project', number: '02' },
-            { id: '03-copilot-instructions', file: 'content/1-hour/3-copilot-instructions.md', title: 'Custom Instructions', number: '03' },
-            { id: '04-add-feature', file: 'content/1-hour/4-add-feature.md', title: 'Add an Adopt Me Page', number: '04' },
-            { id: '05-bonus', file: 'content/1-hour/5-bonus.md', title: 'Bonus: Agent Mode', number: '05' },
-            { id: 'resources', file: 'content/GitHub-Copilot-Resources.md', title: 'Copilot Resources', number: '📖' },
+            { id: 'readme', file: 'workshop/README.md', title: 'Getting Started', number: '📚' },
+            { id: '00-setup', file: 'workshop/00-setup.md', title: 'Workshop Setup', number: '00' },
+            { id: '01-add-endpoint', file: 'workshop/01-add-endpoint.md', title: 'Add a Simple Endpoint', number: '01' },
+            { id: '02-explore-project', file: 'workshop/02-explore-project.md', title: 'Explore the Project', number: '02' },
+            { id: '03-copilot-instructions', file: 'workshop/03-copilot-instructions.md', title: 'Custom Instructions', number: '03' },
+            { id: '04-add-feature', file: 'workshop/04-add-feature.md', title: 'Add an Adopt Me Page', number: '04' },
+            { id: '05-bonus', file: 'workshop/05-bonus.md', title: 'Bonus: Agent Mode', number: '05' },
+            { id: 'resources', file: 'workshop/GitHub-Copilot-Resources.md', title: 'Copilot Resources', number: '📖' },
         ];
 
         // Confetti celebration function
@@ -752,7 +752,7 @@
             md = md.replace(/\]\((?:\.\/)?(?:\.\.\/)*GitHub-Copilot-Resources\.md\)/g, '](step.html?step=resources)');
             
             // Convert remaining relative .md links to GitHub raw URLs
-            md = md.replace(/\]\((?:\.\.\/)+([^)]+\.md)\)/g, `](${GITHUB_RAW_BASE}content/$1)`);
+            md = md.replace(/\]\((?:\.\.\/)+([^)]+\.md)\)/g, `](${GITHUB_RAW_BASE}workshop/$1)`);
             
             // Handle GitHub-style alerts
             md = md.replace(/>\s*\[!NOTE\]\s*\n/gi, '> **📝 Note**\n>\n');

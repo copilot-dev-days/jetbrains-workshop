@@ -2,11 +2,11 @@
 
 This repository is a hands-on workshop for learning GitHub Copilot **in IntelliJ IDEA** (Copilot for JetBrains), using the **Spring PetClinic** application.
 
-The workshop materials live in [content/1-hour/README.md](content/1-hour/README.md).
+The workshop materials live in [workshop/README.md](workshop/README.md).
 
 ## Repo layout
 
-- [content/](content/) — workshop instructions and reusable prompts
+- [workshop/](workshop/) — workshop instructions and reusable prompts
 - [.github/copilot-instructions.md](.github/copilot-instructions.md) — example Copilot instructions you can copy into your PetClinic clone
 
 ## Prerequisites
@@ -29,4 +29,4 @@ Then open http://localhost:8080.
 
 ## Start the workshop
 
-Follow [content/1-hour/README.md](content/1-hour/README.md).
+Follow [workshop/README.md](workshop/README.md).

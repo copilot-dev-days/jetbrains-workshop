@@ -22,16 +22,16 @@ You will need:
 
 You’ll complete 5 core exercises plus an optional bonus:
 
-0. [Setup](./0-setup.md)
-1. [Add a simple endpoint](./1-add-endpoint.md)
-2. [Explore the project](./2-explore-project.md)
-3. [Copilot instructions](./3-copilot-instructions.md)
-4. [Add a pet adoption feature (Agent Mode)](./4-add-feature.md)
-5. [Bonus: Agent Mode + custom instructions](./5-bonus.md)
+0. [Setup](./00-setup.md)
+1. [Add a simple endpoint](./01-add-endpoint.md)
+2. [Explore the project](./02-explore-project.md)
+3. [Copilot instructions](./03-copilot-instructions.md)
+4. [Add a pet adoption feature (Agent Mode)](./04-add-feature.md)
+5. [Bonus: Agent Mode + custom instructions](./05-bonus.md)
 
 ## Resources
 
-See [content/GitHub-Copilot-Resources.md](../GitHub-Copilot-Resources.md).
+See [GitHub-Copilot-Resources.md](./GitHub-Copilot-Resources.md).
 
-| [← Repository overview](../../README.md) | [Next: Workshop setup →](./0-setup.md) |
+| [← Repository overview](../README.md) | [Next: Workshop setup →](./00-setup.md) |
 |:----------------------------------------|---------------------------------------:|
