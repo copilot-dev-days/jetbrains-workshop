@@ -742,9 +742,17 @@
             md = md.replace(/👉 \*\*\[Start with[^\n]+/g, '');
             
             // Convert internal markdown links to step viewer links
-            md = md.replace(/\]\((\d+)-([^)]+)\.md\)/g, '](step.html?step=$1-$2)');
-            md = md.replace(/\]\(README\.md\)/g, '](step.html?step=readme)');
-            md = md.replace(/\]\(GitHub-Copilot-Resources\.md\)/g, '](step.html?step=resources)');
+            // Handle ./X-name.md and X-name.md, zero-padding single digits to match step IDs
+            md = md.replace(/\]\((?:\.\/)?(\d+)-([^)]+)\.md\)/g, (match, num, name) => {
+                const padded = num.padStart(2, '0');
+                return `](step.html?step=${padded}-${name})`;
+            });
+            md = md.replace(/\]\((?:\.\/)?README\.md\)/g, '](step.html?step=readme)');
+            md = md.replace(/\]\((?:\.\.\/)*README\.md\)/g, '](step.html?step=readme)');
+            md = md.replace(/\]\((?:\.\/)?(?:\.\.\/)*GitHub-Copilot-Resources\.md\)/g, '](step.html?step=resources)');
+            
+            // Convert remaining relative .md links to GitHub raw URLs
+            md = md.replace(/\]\((?:\.\.\/)+([^)]+\.md)\)/g, `](${GITHUB_RAW_BASE}content/$1)`);
             
             // Handle GitHub-style alerts
             md = md.replace(/>\s*\[!NOTE\]\s*\n/gi, '> **📝 Note**\n>\n');
