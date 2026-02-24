@@ -31,7 +31,4 @@ You’ll complete 5 core exercises plus an optional bonus:
 
 ## Resources
 
-See [GitHub-Copilot-Resources.md](./GitHub-Copilot-Resources.md).
-
-| [← Repository overview](../README.md) | [Next: Workshop setup →](./00-setup.md) |
-|:----------------------------------------|---------------------------------------:|
+See [resources.md](./resources.md).

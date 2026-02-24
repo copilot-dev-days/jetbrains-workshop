@@ -8,6 +8,3 @@
 
 > [!NOTE]
 > JetBrains UI labels can vary by IDE version and plugin version. If a button name differs, use the closest equivalent (for example “Copilot Chat”, “Chat”, or the Copilot icon tool window).
-
-| [← 1-hour workshop](./1-hour/README.md) | 
-|:---------------------------------------|
