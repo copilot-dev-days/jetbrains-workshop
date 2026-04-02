@@ -1,3 +1,5 @@
+🌐 [Português (Brasil)](README.pt_BR.md) | [Español](README.es.md)
+
 # GitHub Copilot for JetBrains Workshop
 
 This repository is a hands-on workshop for learning GitHub Copilot **in IntelliJ IDEA** (Copilot for JetBrains), using the **Spring PetClinic** application.
